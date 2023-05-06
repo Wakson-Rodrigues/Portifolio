@@ -1,0 +1,35 @@
+section.skills div.skills-line {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-between;
+}
+
+section.skills div.skills-line div.skills-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 16px;
+  background-color: #fbfbfb;
+  margin: 22px 0 22px 0;
+  width: 156px;
+  height: 118px;
+}
+
+section.skills div.skills-line div.skills-box ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1440px) {
+  section.skills div.skills-line {
+    justify-content: center;
+  }
+
+  section.skills div.skills-line div.skills-box {
+    margin: 22px 15px 22px 0px;
+    width: 186px;
+    height: 118px;
+  }
+}
